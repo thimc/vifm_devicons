@@ -1,0 +1,30 @@
+" Ranger devicons for ViFM
+" https://github.com/cirala/vifm_devicons
+"
+" Filetypes/directories
+set classify=' :dir:/, :exe:, :reg:, :link:,? :?:, ::../::'
+
+" Specific files
+set classify+=' ::.Xdefaults,,.Xresources,,.bashprofile,,.bash_profile,,.bashrc,,.dmrc,,.d_store,,.fasd,,.gitconfig,,.gitignore,,.jack-settings,,.mime.types,,.nvidia-settings-rc,,.pam_environment,,.profile,,.recently-used,,.selected_editor,,.xinitpurc,,.zprofile,,.yarnc,,.snclirc,,.tmux.conf,,.urlview,,.config,,.ini,,.user-dirs.dirs,,.mimeapps.list,,.offlineimaprc,,.msmtprc,,.Xauthority::'
+set classify+=' ::dropbox::, ::favicon.ico::, ::.vimrc::'
+set classify+=' ::gruntfile.coffee,,gruntfile.js,,gruntfile.ls::'
+set classify+=' ::gulpfile.coffee,,gulpfile.js,,gulpfile.ls::'
+set classify+=' ::ledger::, ::license,,copyright,,LICENSE,,COPYRIGHT::, ::node_modules::, ::react.jsx::'
+
+" File extensions
+set classify+='λ ::*.ml,,*.mli::, ::*.styl::, ::*.scss::, ::*.py,,*.pyc,,*.pyd,,*.pyo::, ::*.php::'
+set classify+=' ::*.markdown,,*.md::, ::*.json::, ::*.js::, ::*.bmp,,*.gif,,*.ico,,*.jpeg,,*.jpg,,*.png,,*.svg,,*.svgz,,*.tga,,*.tif,,*.tiff,,*.xmb,,*.xcf,,*.xpm,,*.xspf,,*.xwd::'
+set classify+=' ::*.ejs,,*.css,,*.htm,,*.html,,*.slim,,*.xml::, ::*.mustasche::, ::*.css,,*.less,,*.bat,,*.conf,,*.ini,,*.rc,,*.yml,,*.cfg::'
+set classify+=' ::*.rss::, ::*.coffee::, ::*.twig::, ::*.c++,,*.cc,,*.c,,*.cpp,,*.cxx,,*.c,,*.h::'
+set classify+=' ::*.hs,,*.lhs::, ::*.lua::, ::*.jl::, ::*.go::, ::*.ts::, ::*.db,,*.dump,,*.sql::'
+set classify+=' ::*.sln,,*.suo::, ::*.exe::, ::*.diff,,*.sum,,*.md5,,*.sha512::, ::*.scala::, ::*.java,,*.jar::, ::*.xul::, ::*.clj,,*.cljc::'
+set classify+=' ::*.pl,,*.pm,,*.t::, ::*.cljs,,*.edn::, ::*.rb::, ::*.fish::, ::*.sh::, ::*.dart::'
+set classify+=' ::*.f#,,*.fs,,*.fsi,,*.fsscript,,*.fsx::, ::*.rlib,,*.rs::, ::*.d::, ::*.erl,,*.hrl::'
+set classify+=' ::*.ai::, ::*.psb,,*.psd::, ::*.jsx::, ::*.vim,,*.vimrc::'
+set classify+=' ::*.aac,,*.anx,,*.asf,,*.au,,*.axa,,*.flac,,*.m2a,,*.m4a,,*.mid,,*.midi,,*.mp3,,*.mpc,,*.oga,,*.ogg,,*.ogx,,*.ra,,*.ram,,*.rm,,*.spx,,*.wav,,*.wma,,*.ac3::'
+set classify+=' ::*.avi,,*.flv,,*.mkv,,*.mov,,*.mov,,*.mp4,,*.mpeg,,*.mpg,,*.webm::'
+set classify+=' ::*.epub,,*.pdf,,*.fb2,,*.djvu::'
+set classify+=' ::*.7z,,*.apk,,*.bz2,,*.cab,,*.cpio,,*.deb,,*.gem,,*.gz,,*.gzip,,*.lh,,*.lzh,,*.lzma,,*.rar,,*.rpm,,*.tar,,*.tgz,,*.xz,,*.zip::'
+set classify+=' ::*.cbr,,*.cbz::, ::*.log::, ::*.doc,,*.docx::, ::*.xls,,*.xls[mx]::, ::*.pptx,,*.ppt::'
+
+
