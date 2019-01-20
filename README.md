@@ -12,6 +12,15 @@ This plugin is inspired by Alexander Jeurissen's ranger_devicons which can be fo
 https://github.com/alexanderjeurissen/ranger_devicons
 
 ## Installation instructions
+There are two ways to install this, the choice is entirely yours but I recommend the latter 
+because when updates are released you simply need to update a git repo instead of messing 
+with the actual vifmrc file.
+
+### Way 1:
 Append the SETUP file to your ~/.config/vifm/vifmrc file and restart Vifm to take affect. 
-Uninstallation is done the same way but instead by removing the appended lines.
+
+### Way 2:
+Append the following line to your vifmrc file:
+**source /path/to/your/repos/vifm_devicons/SETUP**
+Restart Vifm to take affect.
 
