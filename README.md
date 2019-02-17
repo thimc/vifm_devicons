@@ -21,6 +21,8 @@ Append the SETUP file to your ~/.config/vifm/vifmrc file and restart Vifm to tak
 
 ### Way 2:
 Append the following line to your vifmrc file:
-**source /path/to/your/repos/vifm_devicons/SETUP**
+
+    source /path/to/your/repos/vifm_devicons/SETUP
+
 Restart Vifm to take affect.
 
