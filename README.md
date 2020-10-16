@@ -17,12 +17,12 @@ because when updates are released you simply need to update a git repo instead o
 with the actual vifmrc file.
 
 ### Way 1:
-Append the SETUP file to your ~/.config/vifm/vifmrc file and restart Vifm to take affect. 
+Append the `favicons.vifm` file to your ~/.config/vifm/vifmrc file and restart Vifm to take affect. 
 
 ### Way 2:
 Append the following line to your vifmrc file:
 
-    source /path/to/your/repos/vifm_devicons/SETUP
+    source /path/to/your/repos/vifm_devicons/favicons.vifm
 
 Restart Vifm to take affect.
 
